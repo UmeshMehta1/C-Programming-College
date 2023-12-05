@@ -4,6 +4,7 @@ int main(){
 
     printf("enter limit Array: ");
     scanf("%d",&n);
+
     for(i=0;i<n;i++){
         printf("\nEnter element %d : ", i+1 );
         scanf("%d", &arr[i]);
@@ -14,10 +15,11 @@ int main(){
     for(i=0;i<n;i++){
         if ( s == arr[i] ){
             f=1;
-             break;
+            break;
         }
      
     }
+
 
     if(f==1){
         printf("\n Element found in array");

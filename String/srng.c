@@ -7,12 +7,12 @@ int main(){
 
      printf("enter you name: ");
      scanf("%s", str);
-    // i=0;
-    // while(str[i]!='\0'){
-    //     printf("%c",str[i]);
-    //     i++;
-    // }
+    i=0;
+    while(str[i]!='\0'){
+        printf("%c",str[i]);
+        i++;
+    }
 
     // without loop 
-    printf("%s",str);
+    // printf("%s",str);
 }

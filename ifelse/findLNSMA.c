@@ -1,3 +1,4 @@
+//Find Largest number, smallest numer, averae number.
 #include<stdio.h>
 int main(){
     int n, ln, sn, a, elm, i;
@@ -5,9 +6,9 @@ int main(){
     printf("Enter the total number of elements: ");
     scanf("%d", &elm);
 
-    ln = 0;
-    sn = 0;
-    a = 0;
+    ln = 0;    //largest number
+    sn = 0;    // smallest number
+    a = 0;     // average number
 
     for (i = 1; i <= elm; i++) { // Change the loop condition
         printf("\nEnter %d number: ", i);

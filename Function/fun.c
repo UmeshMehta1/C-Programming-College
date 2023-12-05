@@ -11,5 +11,7 @@ int main(){
         printf("The Multiply of %d X %d= %d", num,i, num*i);
         printf("\n");
     }
+    
    return 0;
+
 }
