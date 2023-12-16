@@ -1,0 +1,26 @@
+1. Read ==> "r" ==> Read the file
+2. Write==> "w" ==> Write the file ==> write garda harek chote naya file generate garxa, yadi file xadae xa vane file lai new file sanga replace gardinxa.
+3. Append=> "a" ==> Add data to existing content of a file ==> yaute file ma data lai add garde janxa.
+   example: i. Umesh.
+            ii. Hari.
+            iii. Rajesh.
+
+===================================
+Steps of use the file
+1. open the file
+2. as per as mode read or write or Append.
+3. close the file
+
+=======================================
+FILE => pre-processer
+============
+1. fopen("file name with location", "mode") ==> mode: w,r,a
+2.fput()=> write the character
+3. fgetc()==> give(read) one by one charachter
+4. fprintf()=> Write the different type of data type
+5. fscanf()==> Read the different type of data type
+
+6. fclose()==> finally close the file.
+
+========================================
+EOF==> End of file => pre-processer directive ho.
